@@ -14,12 +14,12 @@ This application is a service designed to provide users with detailed country in
 
 ## Enpoint Usage:
 The available endpoint `/country` allows to:
-- Get all available countries
-- Filter countries by name
-- Filter countries by population (get countries with less or equal input)
-- Sort results in ascending or descending order
-- Paginate the results to limit the number of items recieved
-- Only **HTTP GET** is implemented
+- Get all available countries.
+- Filter countries by name.
+- Filter countries by population (get countries with less or equal input).
+- Sort results in ascending or descending order.
+- Paginate the results to limit the number of items recieved.
+- Only **HTTP GET** is implemented.
 
 **The parameters are:**
 - `population`:
